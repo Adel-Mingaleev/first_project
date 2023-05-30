@@ -265,6 +265,6 @@ df_main.insert(12, 'Модератор', df_main['Отрасль'].map(lambda x:
 
 
 # Сохраним датафрейм df_main в формате xlsx для дальнейшего построения графиков в программе Power BI:
-df_main.to_excel(r'C:\Users\Adel Mingaleev\Downloads\df_main.xlsx', index=False, sheet_name='Массив')
+df_main.to_excel(r'C:\Downloads\df_main.xlsx', index=False, sheet_name='Массив')
 
 
